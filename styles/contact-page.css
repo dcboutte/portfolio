@@ -1,0 +1,48 @@
+body { 
+  padding: 0;
+  background-color: #111;
+  margin: 0 0 100px; /* bottom = footer height */
+
+}
+
+.header {
+	background-color: black;
+	color: white;
+  text-align: center;
+  font-weight: bold;
+  height: 15vh;
+  font-family: arial;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.header h5 {
+	margin: 0px;
+	text-align: left;
+	font-size: 40px;
+	font-family: calibri;
+}
+
+footer {
+background-color: black;
+text-align: left;
+font-weight: bold;
+padding-left: 10px;
+position: absolute;
+left: 0;
+bottom: 0;
+height: 100px;
+width: 100%;
+}
+
+footer h5{
+    color:white;
+    font-weight: bold;
+    text-align: right;
+    font-family: calibri;
+    font-size: 30px;
+    padding-right: 20px;
+    margin: 30px 0 0 0;
+  }
