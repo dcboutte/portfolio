@@ -68,7 +68,7 @@ display: inline;
 }
 
 img {
-  width: 250px;
+  height:  450px;
 }
 #categories {
   padding-top: 60px;
@@ -91,14 +91,19 @@ margin: 0px 20px;
 }
 
 footer {
-background-color: black;
-text-align: left;
-font-weight: bold;
-position: absolute;
-left: 0;
-bottom: 0;
-height: 100px;
-width: 100%;
+  background-color: black;
+  text-align: left;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+footer div {
+  float: left;
+  width: 50%;
 }
 
 footer h5{
@@ -125,9 +130,75 @@ footer h5{
 }
 
 .photo img{
-  width: 500px;
+  width: 600px;
+  height: auto;
 }
 
 .photo:first-child {
   margin-top: 0px;
+}
+
+.input-row {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.input-row input {
+  width: 350px;
+  padding-left: 10px;
+}
+
+.input-row textarea {
+  width: 350px;
+  height: 180px;
+  padding-left: 10px;
+}
+
+label {
+  color: white;
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.leadin {
+  color: white;
+  padding-left: 10px;
+  width: 50%;
+  padding-bottom: 75px;
+}
+
+.logo {
+  height: 50px;
+  margin-top: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.biointro p {
+  color: white;
+}
+
+.bodyp p {
+  color: white;
+  text-indent: 55px;
+}
+
+.profilepic {
+float: left;
+width: 35%;
+}
+
+.paragraph {
+  float: right;
+  width: 60%
+
+}
+
+.sub {
+  color: white;
 }
