@@ -181,24 +181,24 @@ label {
 
 .biointro p {
   color: white;
+  text-indent: 55px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .bodyp p {
   color: white;
   text-indent: 55px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .profilepic {
-float: left;
-width: 35%;
+  float: left;
+  width: 35%;
 }
 
-.paragraph {
-  float: right;
-  width: 60%
-
+.packages {
+  color:#505050;
 }
 
-.sub {
-  color: white;
-}
