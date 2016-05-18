@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>DCBoutte Photograpy</title>
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+<body>
+  <div class="header">
+    <div id="logo">
+      <h5>DCBoutte Photography</h5>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="<%= ROOT_ROUTE %>">Home</a></li>
+        <li><a href="<%= CONTACT_ROUTE %>">Contact Info</a></li>
+        <li><a href="<%= BIO_ROUTE %>">Bio</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <%= yield %>
+  
+  <footer>
+    <h5>DCBoutte Photography</h5>
+  </footer>
+</body>
+</html>
