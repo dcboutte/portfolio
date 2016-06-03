@@ -1,10 +1,6 @@
 module HTML
 
   def gallery_image(src)
-    # div "photo" do
-    #   img src
-    # end
-
     el(:div, :class => 'photo') { el(:img, src: src) }
   end
 
