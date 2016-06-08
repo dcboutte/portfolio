@@ -1,43 +1,44 @@
 module Galleries
 
   PORTRAIT_IMAGES = [
-    "images/couple1.jpg",
-    "images/mainp.JPG",
-    "images/p1.jpg",
-    "images/p2.jpg",
-    "images/couple2.jpg",
-    "images/ap1.JPG",
-    "images/gmujazz1.JPG",
-    "images/gmujazz2.JPG",
-    "images/gmujazz3.JPG",
-    "images/porr.JPG"
+    "couple1.jpg",
+    "mainp.JPG",
+    "p1.jpg",
+    "p2.jpg",
+    "couple2.jpg",
+    "ap1.JPG",
+    "gmujazz1.JPG",
+    "gmujazz2.JPG",
+    "gmujazz3.JPG",
+    "porr.JPG",
+    "ambdenn1.JPG"
   ]
 
   NATURE_IMAGES = [
-    "images/zeusmain.JPG",
-    "images/IMG_2161.JPG",
-    "images/happiness.JPG",
-    "images/hapiness12.JPG",
-    "images/flores1.JPG",
-    "images/snake2.jpg",
-    "images/nature.jpg",
-    "images/at1.jpg",
-    "images/at.jpg",
-    "images/naturetree.JPG",
-    "images/cat1.JPG",
-    "images/zelda.JPG",
-    "images/window.JPG",
-    "images/bugg.jpg",
-    "images/plant.jpg",
-    "images/spring.JPG"
+    "zeusmain.JPG",
+    "IMG_2161.JPG",
+    "happiness.JPG",
+    "hapiness12.JPG",
+    "flores1.JPG",
+    "snake2.jpg",
+    "nature.jpg",
+    "at1.jpg",
+    "at.jpg",
+    "naturetree.JPG",
+    "cat1.JPG",
+    "zelda.JPG",
+    "window.JPG",
+    "bugg.jpg",
+    "plant.jpg",
+    "spring.JPG"
   ]
 
   LANDSCAPE_IMAGES = [
-    "images/Naturemain.JPG",
-    "images/beach.JPG",
-    "images/nevada1.jpg",
-    "images/rp.JPG",
-    "images/fly.JPG"
+    "Naturemain.JPG",
+    "beach.JPG",
+    "nevada1.jpg",
+    "rp.JPG",
+    "fly.JPG"
   ]
 
 
