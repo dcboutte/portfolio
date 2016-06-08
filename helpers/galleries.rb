@@ -11,7 +11,17 @@ module Galleries
     "gmujazz2.JPG",
     "gmujazz3.JPG",
     "porr.JPG",
-    "ambdenn1.JPG"
+    "poreee.JPG",
+    "finished.JPG",
+    "ambdenn1.JPG",
+    "ambdenn3.JPG",
+    "ambdenn6.JPG",
+    "ambdenn9.JPG",
+    "ambdenn14.JPG",
+    "ambdenn15.JPG",
+    "ambdenn19.JPG",
+    "amberdenn.JPG"
+
   ]
 
   NATURE_IMAGES = [
