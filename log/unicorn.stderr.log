@@ -1,0 +1,30 @@
+F, [2016-06-08T18:22:08.964611 #1622] FATAL -- : error adding listener addr=./tmp/sockets/unicorn.sock
+/Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:131:in `bind_listen': Don't know how to bind: ./tmp/sockets/unicorn.sock (ArgumentError)
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/bin/unicorn:23:in `load'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/bin/unicorn:23:in `<main>'
+F, [2016-06-08T18:22:32.180876 #1666] FATAL -- : error adding listener addr=./tmp/sockets/unicorn.sock
+/Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:131:in `bind_listen': Don't know how to bind: ./tmp/sockets/unicorn.sock (ArgumentError)
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/bin/unicorn:23:in `load'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/bin/unicorn:23:in `<main>'
+F, [2016-06-08T18:25:06.815278 #1803] FATAL -- : error adding listener addr=./tmp/sockets/unicorn.sock
+/Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:131:in `bind_listen': Don't know how to bind: ./tmp/sockets/unicorn.sock (ArgumentError)
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/bin/unicorn:23:in `load'
+	from /Users/samuelbarrientos/.rbenv/versions/2.2.0/bin/unicorn:23:in `<main>'
