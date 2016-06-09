@@ -5,7 +5,8 @@ require_relative 'helpers/galleries'
 require_relative 'helpers/html'
 require_relative 'helpers/mailer'
 
-
+# Each request creates a new instance of this class.
+# Modules found in ./helpers
 class Portfolio < Sinatra::Application
   include Routes
   include HTML

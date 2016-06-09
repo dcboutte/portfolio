@@ -1,5 +1,5 @@
 # set path to app that will be used to configure unicorn
-@dir = "/home/deploy/www/portfolio/"
+@dir = '/home/deploy/www/portfolio/'
 
 worker_processes 2
 working_directory @dir
@@ -7,7 +7,7 @@ working_directory @dir
 timeout 30
 
 # Specify path to socket unicorn listens to
-listen "#{@dir}tmp/sockets/unicorn.sock", :backlog => 64
+listen "#{@dir}tmp/sockets/unicorn.sock", backlog: 64
 
 # Set process id path
 pid "#{@dir}tmp/pids/unicorn.pid"

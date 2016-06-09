@@ -1,7 +1,7 @@
+# This module dynamically creates HTML form ruby methods
 module HTML
-
   def gallery_image(src)
-    el(:div, :class => 'photo') { el(:img, src: src) }
+    el(:div, class: 'photo') { el(:img, src: src) }
   end
 
   def el(tag_name, options = {})
@@ -10,7 +10,6 @@ module HTML
     html << "<#{tag_name} #{attributes}>"
     html << yield if block_given?
     html << "</#{tag_name}>"
-    html.join("")
+    html.join('')
   end
-
 end
