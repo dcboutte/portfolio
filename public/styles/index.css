@@ -5,26 +5,28 @@ html{
 
 body {
   padding: 0;
-  margin: 0 0 200px; /* bottom = footer height */
-  /*background-color: grey;*/
+  margin: 0 0 200px;
   background-image: url('../images/at.jpg');
   background-size: cover;
   background-position: center;
 }
 
+.content {
+  margin-top: 100px;
+}
+
 .header {
-  position: fixed;
+  width: 100%;
+  clear: both;
 	color: white;
   background-color: black;
   text-align: left;
   font-weight: bold;
   height: 55px;
   padding-top: 3px;
-  padding-bottom: 0px;
-  padding-left: 10px;
   margin: 0px 0px 0 0;
   position: fixed;
-  margin-top: -55px;
+  top: 0;
 }
 
 .header h5 {
@@ -33,70 +35,73 @@ body {
   font-size: 30px
 }
 
-#menu, #logo {
-  display: inline-block;
+#logo {
+  float: left;
+  width: 30%;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 
 #menu {
-    padding-left: 47%;
-    height: 35px;
-    font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    text-align: right;
-    text-shadow: 3px 2px 3px #333333;
-    background-color: black;
-    list-style: none;
-    position: fixed;
-    margin-top: -4px;
-    padding-top: 24px;
-    padding-right: 27px;
-
+  height: 35px;
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: right;
+  text-shadow: 3px 2px 3px #333333;
+  background-color: black;
+  list-style: none;
+  float: left;
+  width: 70%;
+  margin-top: -4px;
+  padding-top: 24px;
+  padding-right: 27px;
+  box-sizing: border-box;
 }
 
 #menu ul {
-    height: auto;
-    padding: 8px 0px;
-    margin: 0px;
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
 }
 
 #menu li {
-display: inline;
-
+  display: inline;
 }
 
 #menu a {
 	color: white;
-    text-decoration: none;
-    padding: 8px 8px 8px 8px;
-    font-family: calibri;
+  text-decoration: none;
+  padding: 8px 8px 8px 8px;
+  font-family: calibri;
 }
 
 #menu a:hover {
-    color: #333333;
-    background-color: #FFF;
+  color: #333333;
+  background-color: #FFF;
 }
 
 img {
   height:  450px;
 }
+
 #categories {
   padding-top: 60px;
   text-align: center;
 }
 
 .category{
-display: inline-block;
-margin: 0px 20px;
+  display: inline-block;
+  margin: 0px 20px;
 }
 
-.category h5{
+.category h5 {
   color: white;
   font-family: calibri;
   font-size: 18px;
 }
 
-#categories a{
+#categories a {
   text-decoration: none;
 }
 
@@ -116,22 +121,23 @@ footer div {
   width: 50%;
 }
 
-footer h5{
-    color:white;
-    font-weight: bold;
-    text-align: right;
-    font-family: calibri;
-    font-size: 30px;
-    padding-right: 20px;
-    margin: 30px 0 0 0;
-  }
-  #categories h3{
-    padding-bottom: 10px;
-  }
+footer h5 {
+  color:white;
+  font-weight: bold;
+  text-align: right;
+  font-family: calibri;
+  font-size: 30px;
+  padding-right: 20px;
+  margin: 30px 0 0 0;
+}
 
-  #gallery {
+#categories h3{
+  padding-bottom: 10px;
+}
+
+#gallery {
   padding-top: 60px;
-    text-align: center;
+  text-align: center;
 }
 
 .photo {
@@ -208,7 +214,7 @@ label {
 
 .profilepic {
   text-align: center;
-  margin: 100px 0;
+  margin-bottom: 100px;
 }
 
 .packages {
@@ -220,6 +226,7 @@ label {
 
 .propic {
   height: 300px;
+  margin-top: 50px;
 }
 
 .pricing{
@@ -239,9 +246,8 @@ label {
 }
 
 .faded {
-background: rgba(0, 0, 0, .5);
-margin-left: 290px;
-margin-right: 290px;
-margin-top: -45px;
-margin-bottom: -100px;
+  background: rgba(0, 0, 0, .5);
+  width: 60%;
+  margin: auto;
+  padding-bottom: 50px;
 }
