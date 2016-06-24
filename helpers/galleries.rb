@@ -19,7 +19,8 @@ module Galleries
     'ambdenn14.JPG',
     'ambdenn15.JPG',
     'ambdenn19.JPG',
-    'amberdenn.JPG'
+    'amberdenn.JPG',
+    'portrait.JPG'
 
   ].freeze
 
@@ -39,7 +40,8 @@ module Galleries
     'window.JPG',
     'bugg.jpg',
     'plant.jpg',
-    'spring.JPG'
+    'spring.JPG',
+    'tree22.jpg'
   ].freeze
 
   LANDSCAPE_IMAGES = [
@@ -47,6 +49,9 @@ module Galleries
     'beach.JPG',
     'nevada1.jpg',
     'rp.JPG',
-    'fly.JPG'
+    'fly.JPG',
+    'distance.JPG',
+    'view.JPG',
+    'view1.JPG'
   ].freeze
 end

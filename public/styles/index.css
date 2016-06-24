@@ -5,11 +5,15 @@ html{
 
 body {
   padding: 0;
-  background-color: #111;
   margin: 0 0 200px; /* bottom = footer height */
+  /*background-color: grey;*/
+  background-image: url('../images/at.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
+  position: fixed;
 	color: white;
   background-color: black;
   text-align: left;
@@ -19,6 +23,8 @@ body {
   padding-bottom: 0px;
   padding-left: 10px;
   margin: 0px 0px 0 0;
+  position: fixed;
+  margin-top: -55px;
 }
 
 .header h5 {
@@ -41,6 +47,10 @@ body {
     text-shadow: 3px 2px 3px #333333;
     background-color: black;
     list-style: none;
+    position: fixed;
+    margin-top: -4px;
+    padding-top: 24px;
+    padding-right: 27px;
 
 }
 
@@ -181,24 +191,57 @@ label {
 
 .biointro p {
   color: white;
-  text-indent: 55px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  line-height: 24px;
+  margin-top: -68px;
 }
 
 .bodyp p {
   color: white;
-  text-indent: 55px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  line-height: 24px;
 }
 
 .profilepic {
-  float: left;
-  width: 35%;
+  text-align: center;
+  margin: 100px 0;
 }
 
 .packages {
-  color:#505050;
+  color: white;
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
+.propic {
+  height: 300px;
+}
+
+.pricing{
+  margin-bottom: 45px;
+}
+
+.pacpri{
+  line-height: 10px;
+}
+
+.pac1{
+  margin-bottom: 35px;
+}
+
+.pac2{
+  margin-bottom: 35px;
+}
+
+.faded {
+background: rgba(0, 0, 0, .5);
+margin-left: 290px;
+margin-right: 290px;
+margin-top: -45px;
+margin-bottom: -100px;
+}
