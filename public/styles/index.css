@@ -7,8 +7,8 @@ body {
   padding: 0;
   margin: 0 0 200px;
   background-image: url('../images/at.jpg');
-  background-size: cover;
-  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 .content {
@@ -182,6 +182,9 @@ label {
   padding-left: 10px;
   width: 50%;
   padding-bottom: 75px;
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 20px;
 }
 
 .logo {
@@ -246,8 +249,37 @@ label {
 }
 
 .faded {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .75);
   width: 60%;
   margin: auto;
   padding-bottom: 50px;
+}
+
+#contact_form {
+  text-align: center;
+}
+
+h2 {
+  color: grey;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.back {
+  background: rgba(0, 0, 0, .75);
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+h3 {
+  color:white;
+  text-align: center;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 60px;
+}
+
+.quotes {
+  text-align: center;
 }

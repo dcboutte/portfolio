@@ -20,7 +20,12 @@ module Galleries
     'ambdenn15.JPG',
     'ambdenn19.JPG',
     'amberdenn.JPG',
-    'portrait.JPG'
+    'portrait.JPG',
+    'naomi 77.JPG',
+    'naomi11.JPG',
+    'naomi16.JPG',
+    'naomi4.JPG',
+    'naomi9.JPG',
 
   ].freeze
 
