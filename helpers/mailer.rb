@@ -3,7 +3,7 @@ require 'mailgun'
 # Module in charge of sending emails through the contact page to the site admin
 module Mailer
   SENDING_DOMAIN = 'dcbouttephotography.com'.freeze
-  CLIENT = Mailgun::Client.new 'key-9cd2b6fa8df130a7c505d784e1a82620'
+  CLIENT = Mailgun::Client.new ENV['MAILGUN_API_KEY']
 
   def send_message(from, text)
     CLIENT.send_message SENDING_DOMAIN,
