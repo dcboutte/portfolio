@@ -26,6 +26,17 @@ module Galleries
     'naomi16.JPG',
     'naomi4.JPG',
     'naomi9.JPG',
+    'chels1.JPG',
+    'chels3.jpg',
+    'chelsy4.JPG',
+    'daniback.JPG',
+    'daniii.JPG',
+    'final.JPG',
+    'sarah 7.jpg',
+    'katie1.jpg',
+    'katie5.JPG',
+    'katie9.jpg'
+
 
   ].freeze
 
@@ -46,7 +57,12 @@ module Galleries
     'bugg.jpg',
     'plant.jpg',
     'spring.JPG',
-    'tree22.jpg'
+    'tree22.jpg',
+    'deer.JPG',
+    'falls2.JPG',
+    'forestpath.JPG',
+    'mums.JPG'
+
   ].freeze
 
   LANDSCAPE_IMAGES = [
@@ -57,6 +73,11 @@ module Galleries
     'fly.JPG',
     'distance.JPG',
     'view.JPG',
-    'view1.JPG'
+    'view1.JPG',
+    'autmnn.JPG',
+    'Kiteboarding.JPG',
+    'lighttt.JPG',
+    'monumeeen.JPG'
+
   ].freeze
 end
