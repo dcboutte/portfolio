@@ -5,4 +5,5 @@ module Routes
   NATURE_ROUTE = '/nature'.freeze
   CONTACT_ROUTE = '/contact'.freeze
   BIO_ROUTE = '/bio'.freeze
+  GRAPHICS_ROUTE = '/graphics'.freeze
 end

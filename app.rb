@@ -39,6 +39,11 @@ class Portfolio < Sinatra::Application
     erb :bio
   end
 
+  get GRAPHICS_ROUTE do
+    @images = GRAPHICS_IMAGES
+    erb :gallery
+  end
+
   get CONTACT_ROUTE do
     erb :contact
   end

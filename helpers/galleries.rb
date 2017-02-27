@@ -35,8 +35,10 @@ module Galleries
     'sarah 7.jpg',
     'katie1.jpg',
     'katie5.JPG',
-    'katie9.jpg'
-
+    'katie9.jpg',
+    'NaomiW15.JPG',
+    'alien1.jpg',
+    'CalvertCliffs_Sam.JPG',
 
   ].freeze
 
@@ -61,7 +63,10 @@ module Galleries
     'deer.JPG',
     'falls2.JPG',
     'forestpath.JPG',
-    'mums.JPG'
+    'mums.JPG',
+    'bird_Cliffs.JPG',
+    'Calvert_Cliffs_water.JPG',
+    'falls4.JPG'
 
   ].freeze
 
@@ -77,7 +82,27 @@ module Galleries
     'autmnn.JPG',
     'Kiteboarding.JPG',
     'lighttt.JPG',
-    'monumeeen.JPG'
+    'monumeeen.JPG',
+    '6549+55.JPG',
+    'DSC_0244.JPG',
+    'scenicutah.jpg',
+    'utahnature1.JPG'
 
+  ].freeze
+
+  GRAPHICS_IMAGES = [
+    'DanisGarden.jpg',
+    'DCBouttePhotographyLogo.jpg',
+    'Adventure ad.png',
+    'Flyer1.jpg',
+    'Flyer2.jpg',
+    'Gear Rental Advertisment.png',
+    'Before and After 1.png',
+    'Realestate.png',
+    'remodling_lighting.png',
+    'Realestate2.png',
+    'Poster1.jpg',
+    'PosterSM (2).png',
+    'Program Event.png'
   ].freeze
 end
